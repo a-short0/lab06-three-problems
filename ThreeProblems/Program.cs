@@ -1,4 +1,13 @@
-﻿
+﻿/*
+* Name: Avery Hayden Short
+* Course: CSCI 1250, Section 001
+* Assignment: Lab 06, Three Short Problems
+* Date: October 21, 2026
+* Description: A menu that keeps running until the user quits, offering three
+* independent exercises or all three at once. Each exercise
+* practices decisions and one of the four loops.
+*/
+
 using System.Numerics;
 
 int choice = 0;
@@ -54,7 +63,7 @@ if (choice == 1 || choice == 4)
     {
         System.Console.WriteLine(score + " earns a D");
     }
-    else
+    else 
     {
         System.Console.WriteLine(score + " earns a F " );
     }
